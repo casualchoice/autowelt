@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lubrication & Filter Replacement",
+    "description": "Regular oil changes protect your engine and keep your vehicle running smoothly.",
+    "image": "images/services/1.jpg",
+    "content": ""
+  },
+  {
+    "title": "Mechnical & Part Replacement",
+    "description": "Every part is vital to keep your car driveble and safe",
+    "image": "images/services/2.jpg",
+    "content": ""
+  },
+  {
+    "title": "Electrical Repair (Scanning)",
+    "description": "We know your car drive by complex wire technology",
+    "image": "images/services/3.jpg",
+    "content": ""
+  },
+  {
+    "title": "Accidental-Collision Repair",
+    "description": "Accident happened but we can reverse the effect",
+    "image": "images/services/4.jpg",
+    "content": ""
+  },
+  {
+    "title": "Performance and Upgrade",
+    "description": "Upgrade for going faster",
+    "image": "images/services/5.jpg",
+    "content": ""
+  },
+  {
+    "title": "Body work (Denting) & Painting",
+    "description": "To keep your car spotless for ages ",
+    "image": "images/services/6.jpg",
+    "content": ""
+  },
+  {
+    "title": "Paint Protection & Detailing",
+    "description": "Just like your mobile cover for your shiny car",
+    "image": "images/services/7.jpg",
+    "content": ""
+  },
+  {
+    "title": "Washing & Cleaning",
+    "description": "To make impression from every angle of your car",
+    "image": "images/services/8.jpg",
+    "content": ""
+  }
+]

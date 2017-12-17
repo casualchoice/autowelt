@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Lubrication & Filter Replacement",
+    "description": "Regular oil changes protect your engine and keep your vehicle running smoothly.",
+    "image": "images/3.jpg",
+    "content": ""
+  },
+  {
+    "title": "Mechnical & Part Replacement",
+    "description": "Can't seem to find the right components for your vehicle? Auto body parts replacement starting to become a challenge?",
+    "image": "images/4.jpg",
+    "content": ""
+  },
+  {
+    "title": "Electrical Repair (Scanning)",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/5.jpg",
+    "content": ""
+  },
+  {
+    "title": "Accidental-Collision Repair",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/6.jpg",
+    "content": ""
+  },
+  {
+    "title": "Performance and Upgrade",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/3.jpg",
+    "content": ""
+  },
+  {
+    "title": "Body work (Denting) & Painting",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/4.jpg",
+    "content": ""
+  },
+  {
+    "title": "Paint Protection & Detailing",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/5.jpg",
+    "content": ""
+  },
+  {
+    "title": "Washing & Cleaning",
+    "description": "Mauris viverra tortor leo, ut hendrerit arcu varius sit amet. In vitae libero at velit venenatis gravida.",
+    "image": "images/6.jpg",
+    "content": ""
+  }
+]

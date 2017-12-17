@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="expires" content="0">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <script src="../js/jquery-ui.js"></script>
+
+    <link rel="stylesheet" href="../css/clockpicker.css">
+    <link rel="stylesheet" href="../css/standalone.css">
+    <script src="../js/clockpicker.js"></script>
+      <script type="text/javascript" src="../js/services.js"></script>
+  </head>
+  <style>
+  </style>
+	<body>
+    <div id="caption" class="captionIframe">CAR SERVICE RE-ENGINEERED</div>
+    <div id="load"></div>
+    <div id="contents">
+    	<div class="custom-form">
+    		<form id="enquiryForm" onsubmit="return sendForm()">
+    		<div class="fields-grid">
+    			<div class="styled-input agile-styled-input-top">
+    				<input type="text" name="Name" id="txtName" pattern="^[a-zA-Z ,.'-]+$" required="">
+    				<label>Name</label>
+    				<span></span>
+    			</div>
+    			<div class="styled-input agile-styled-input-top">
+    				<input type="text" maxlength="10" id="txtMobile" pattern="^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$" required="">
+    				<label>Contact Number</label>
+    				<span></span>
+    			</div>
+    			<div class="styled-input  agile-styled-input-top">
+    				<input type="email" id="txtEmail" >
+    				<label>Email</label>
+    				<span></span>
+    			</div>
+    			<div class="styled-input" >
+    				<select id="selectAddressType" required="">
+              <option value="Residence">Residence</option>
+              <option value="Office">Office</option>
+            </select>
+    				<label>Pickup Location</label>
+    				<span></span>
+    			</div>
+    			<div class="styled-input" id="pickAddress">
+    				<input type="text" id="txtAddress" required="">
+    				<label>Pickup Address</label>
+    				<span></span>
+    			</div>
+    			<div class="clearfix"> </div>
+    		</div>
+        <fieldset>
+          <legend>Vehical Details:</legend>
+          <div class="fields-grid">
+            <div class="styled-input">
+      				<select id="selectMake" required="">
+                <option value="0">--Select Make--</option>
+              </select>
+      				<label>Make</label>
+      				<span></span>
+      			</div>
+            <div class="styled-input">
+      				<select id="selectModel">
+                <option value="0">--Select model--</option>
+              </select>
+      				<label>Model</label>
+      				<span></span>
+      			</div>
+            <div class="styled-input">
+      				<!--<select id="yearsDropdown">
+                <option value="0">--Select Year--</option>
+              </select>-->
+              <input type="text" id="txtModelYear" maxlength="4" pattern="^(19|20)\d{2}$" >
+      				<label>Year</label>
+      				<span></span>
+      			</div>
+            <div class="styled-input">
+              <select id="selectService" required="">
+              </select>
+              <label>Service type</label>
+              <span></span>
+            </div>
+            <div class="styled-input">
+              <input type="text" id="pickupDate" required="">
+              <label>Pickup Date</label>
+              <span></span>
+            </div>
+            <div class="styled-input input-group clockpicker">
+                <input type="text" class="form-control" id="txtTime" value="18:00">
+                <span class="input-group-addon full-width">
+                    <span class="glyphicon glyphicon-time agileinfo-social-grids"></span>
+                </span>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+      		<div class="styled-input textarea-grid">
+      			<textarea id="txtMessage" ></textarea>
+      			<label>Any other fault or note to be mentioned:</label>
+      			<span></span>
+      		</div>
+        </fieldset>
+    		<input type="submit"  value="SEND">
+    	</form>
+    	</div>
+    </div>
+	</body>
+</html>
